@@ -1,0 +1,154 @@
+img[alt="logo"] {
+    width: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+.nav-items {
+    display: flex;
+    font-size: 23px;
+    font-family: 'Poppins';
+}
+h5.nav-item.active-item {
+    color: #fe5e35;
+    font-weight: 900;
+}
+h5.nav-item {
+    font-weight: lighter;
+    margin-right: 30%;
+}
+img[alt="actions"] {
+    width: 40vh;
+}
+.intro-section {
+    display: flex;
+}
+.headphone-div {
+    display: flex;
+}
+img.discount {
+    position: absolute;
+    right: 33%;
+    width: 8%;
+    bottom: 33%;
+}
+img[alt="headphone"] {
+    width: 85%;
+    height: auto;
+    margin-left: -45%;
+}
+h3 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: lighter;
+}
+h3 {
+    margin: 0px;
+}
+.left-section {
+    padding-left: 5%;
+}
+h1 {
+    font-family: 'Fredoka One';
+    font-size: 75px;
+    font-weight: 100;
+    margin: 0px;
+}
+.sub-headlines {
+    font-family: 'Poppins';
+    font-size: 24px;
+    margin-block: 31px;
+    margin-left: 10%;
+}
+img[alt="plus"] {
+    background: #fe5e35;
+    width: 2%;
+    padding: 3px;
+    margin-right: 10px;
+    border-radius: 16px;
+}
+p.text {
+    font-size: smaller;
+    font-family: 'Poppins';
+    width: 64%;
+    font-weight: 100;
+}
+button.action-btn {
+    background: #fe5e35;
+    border: 0px;
+    color: white;
+    font-family: 'Poppins';
+    padding: 12px;
+    font-size: medium;
+    border-radius: 43px;
+    width: 30vh;
+}
+.right-section button.action-btn {
+    width: 43%;
+    margin-top: 10%;
+    margin-left: -23%;
+}
+.left-section button.action-btn {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.dots {
+    display: flex;
+    margin-right: 46%;
+    margin-left: -20%;
+    margin-top: 10%;
+}
+
+.dot.yellow-dot {
+    background: yellow;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+.dot.tomato-dot {
+    background: #fe5e35;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+.dot.black-dot {
+    background: #000000;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+.discount-content {
+    position: absolute;
+    bottom: 38%;
+    color: white;
+    left: 61%;
+    font-family: 'Fredoka One';
+}
+.discount-content h1 {
+    font-size: 30px;
+}
+.discount-content h4 {
+    bottom: 60%;
+    font-size: 12px;
+    font-weight: 100;
+    position: absolute;
+}
+@media screen and (max-width:600px) {
+    .right-section {
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .nav-items {
+        display: none;
+    }  
+}
